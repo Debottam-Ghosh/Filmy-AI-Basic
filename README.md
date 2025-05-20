@@ -5,6 +5,7 @@ Get instant movie recommendations based on your favorite film!
 
 🔗 **Live App**: [Try it on Streamlit!](https://filmy-ai-basic.streamlit.app)
 
+![image](assets/image.jpg)
 ---
 
 ## Limitations
