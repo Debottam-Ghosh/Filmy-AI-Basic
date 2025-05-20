@@ -1,4 +1,4 @@
-# Filmy AI - Movie Recommender System
+# Filmy AI (Basic) - Movie Recommender System
 
 A content-based movie recommender system built with **Python** and **Streamlit**.  
 Get instant movie recommendations based on your favorite film!
