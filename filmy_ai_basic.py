@@ -12,7 +12,8 @@ movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 # Streamlit app UI
-st.title(":red[Filmy] AI (Basic)",divider="gray")
+st.title(":red[Filmy] AI (Basic)")
+st.divider()
 
 selected_movie_name = st.selectbox(
     "Choose a movie :)",
