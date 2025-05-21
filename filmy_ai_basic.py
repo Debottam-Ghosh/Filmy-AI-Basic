@@ -12,6 +12,16 @@ movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 # Streamlit app UI
+st.markdown(
+    """
+    <p style='font-size:45px; font-weight:bold;'>
+        <span style='color:#FF0000;'>Filmy</span> 
+        <span style='color:##FFFFFF;'>AI</span> 
+        <span style='color:#3b3b3b;'>- Basic Version</span> 
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 st.title(":red[Filmy] AI")
 st.header(":grey[(Basic)]")
 st.divider()
