@@ -22,8 +22,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.title(":red[Filmy] AI")
-st.header(":grey[(Basic)]")
+
 st.divider()
 
 st.subheader("A basic :rainbow[movie recommendation system] which can recommend :blue-background[5 top movies] that you may like")
