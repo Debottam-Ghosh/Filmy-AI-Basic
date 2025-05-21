@@ -8,14 +8,6 @@ Get instant movie recommendations based on your favorite film!
 ![image](assets/image.png)
 ---
 
-## Limitations
-
-The data used for this project is of TMDB database. Since TMDB has stopped working in India in recent times, this model cannot fetch the posters of the recommended movies from TMDB API. Instead of this, it only shows the name of the recommend movies. 
-That's why I named it Filmy AI Basic. 
-I am working on a project to create an advanced recommendation sytem that will not only recommened movies with poster but also it will show top rated movies of that particular genre, most 
-popular movies, top movies of the same director or cast. I will name it Filmy AI pro. Whenever the project is completed I will share it here also.
-
-
 ##  Features
 
 - Recommends 5 similar movies based on a selected title
@@ -42,3 +34,12 @@ popular movies, top movies of the same director or cast. I will name it Filmy AI
 - gdown (for downloading large model files)
 
 ---
+
+## Limitations
+
+The data used for this project is of TMDB database. Since TMDB has stopped working in India in recent times, this model cannot fetch the posters of the recommended movies from TMDB API. Instead of this, it only shows the name of the recommend movies. 
+That's why I named it Filmy AI Basic. 
+I am working on a project to create an advanced recommendation sytem that will not only recommened movies with poster but also it will show top rated movies of that particular genre, most 
+popular movies, top movies of the same director or cast. I will name it Filmy AI pro. Whenever the project is completed I will share it here also.
+
+
