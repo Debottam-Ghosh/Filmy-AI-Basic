@@ -13,7 +13,7 @@ movies = pd.DataFrame(movies_dict)
 
 # Streamlit app UI
 st.title(":red[Filmy] AI")
-st.subheader(":grey[(Basic)]")
+st.header(":grey[(Basic)]")
 st.divider()
 
 st.subheader("A basic :rainbow[movie recommendation system] which can recommend :blue-background[5 top movies] that you may like")
