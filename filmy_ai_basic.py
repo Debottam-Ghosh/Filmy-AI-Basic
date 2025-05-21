@@ -12,7 +12,8 @@ movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 # Streamlit app UI
-st.title(":red[Filmy] AI :grey[(Basic)]")
+st.title(":red[Filmy] AI")
+st.subheader(":grey[(Basic)]")
 st.divider()
 
 st.subheader("A basic :rainbow[movie recommendation system] which can recommend :blue-background[5 top movies] that you may like")
@@ -23,7 +24,7 @@ selected_movie_name = st.selectbox(
     "",
     movies['title'].values)
 
-if st.button("Ask Recommendations"):
+if st.button("Recommend"):
     def recommend(movie):
         movie_index = movies[movies['title'] == movie].index[0]
         similarity_index = similarity[movie_index]
